@@ -23,6 +23,7 @@
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/devel": "^5.3",
+        "drupal/miniorange_saml": "^3.0",
         "drupal/s3fs": "^3.6",
         "drush/drush": "^13.0"
     },
