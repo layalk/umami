@@ -6,12 +6,12 @@ miniorange_saml_customer_api_key: ''
 miniorange_saml_force_auth: false
 miniorange_saml_enable_backdoor: false
 miniorange_saml_default_relaystate: ''
-miniorange_saml_idp_name: ''
-miniorange_saml_idp_issuer: ''
+miniorange_saml_idp_name: IdP
+miniorange_saml_idp_issuer: 'https://sts.windows.net/e26c18bd-1c15-4100-a9a1-ae448670a4fb/'
 miniorange_saml_nameid_format: 'urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified'
-miniorange_saml_idp_login_url: ''
+miniorange_saml_idp_login_url: 'https://login.microsoftonline.com/e26c18bd-1c15-4100-a9a1-ae448670a4fb/saml2'
 miniorange_saml_idp_logout_url: ''
-miniorange_saml_idp_x509_certificate: ''
+miniorange_saml_idp_x509_certificate: "-----BEGIN CERTIFICATE-----\r\nMIIC8DCCAdigAwIBAgIQdb7CVACIDolHpTzJcZ9QGjANBgkqhkiG9w0BAQsFADA0\r\nMTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZp\r\nY2F0ZTAeFw0yNDA4MjMwOTQ1MjJaFw0yNzA4MjMwOTQ1MjJaMDQxMjAwBgNVBAMT\r\nKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjAN\r\nBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuYAH5M80Egtk1VoYSRDyL7LLl8/w\r\nUQHgjroCVwBkk8V/GJPjGnBqwhs4KefgJIQaaJHHSHHgNSCMMmgwPtKC9qqA3t9r\r\nMw6NTi/X7hSQXPtWbAxEM7jjjpeb0Z34PyIQRljqLoHT4UmYJBcSEsf9bO5txZL0\r\nWF7l0qm8Xf2CRtAn4Q7FN8ob18VSzMxE1gbksc2y5NH6ORoV9BAXh2cvJd5xLLtA\r\n5LjzlBALUA6huJsFyIuC5pMxqKke3nP9iA5Ve7D03z2uUHA2RcbGe+kict8tuShE\r\nvgK7o9sXoZvylLBTKlbdHblM4fYCJE5LbCGtUrEo2clDm8Y0QNbMi0b25QIDAQAB\r\nMA0GCSqGSIb3DQEBCwUAA4IBAQAbYS6aaHiga9keRUoVqFmXj2TnkjIBBtGnB8EE\r\n6gnXe5Xh5a5hsZsn7Cn4NKGpV34A18e9FLsKdTzKoMAZx30O6ZQ89ve1+AcVj10y\r\nkWrIvSjyOmcZlZvoiX0Fa+1xwJSFxCxx/ArGcSD+2aqpDDTDbP8/2kGwXx9tRDbv\r\n36fnL+3shBr/YOv4pOsRtPlYW/zHZL7aqI49g3UMQsfvnMTDWFCpMz1yswmbi0qw\r\naNTCwXf/7HRAl88y04Z8cQG79BIULyecW4MLdYP1sw+HjKGb11OYAezTxT59IPTl\r\nc1sY1lMB5wIUnFTRBOTsqnBo3lLkDMYoLqXiRHEqmcdkvSTi\r\n-----END CERTIFICATE-----"
 miniorange_saml_response_signed: false
 miniorange_saml_assertion_signed: false
 miniorange_saml_enable_login: true
@@ -27,7 +27,7 @@ miniorange_saml_idp_attr3_name: ''
 miniorange_saml_attr4_name: ''
 miniorange_saml_idp_attr4_name: ''
 miniorange_saml_disable_autocreate_users: false
-miniorange_saml_default_role: ''
+miniorange_saml_default_role: 'Authenticated user'
 miniorange_saml_role1_name: ''
 miniorange_saml_idp_role1_name: ''
 miniorange_saml_role2_name: ''
@@ -48,14 +48,16 @@ redirect_plan_after_registration_premium: ''
 redirect_plan_after_registration_enterprise: ''
 miniorange_saml_character_encoding: true
 miniorange_saml_install_date: '[Command Line] Aug 23, 2024 12:41:18 PM (Asia/Beirut)'
-miniorange_saml_module_configured: 'No'
-miniorange_saml_last_tab_visited: None
-miniorange_saml_test_configuration: 'No'
+miniorange_saml_module_configured: 'Yes'
+miniorange_saml_last_tab_visited: 'SERVICE PROVIDER METADATA'
+miniorange_saml_test_configuration: 'Yes'
 miniorange_saml_test_configuration_error: ''
-miniorange_saml_sso_tried: 'No'
+miniorange_saml_sso_tried: 'Yes'
 miniorange_saml_sso_error: ''
 miniorange_saml_payment_page_visited: 'No'
 miniorange_saml_payment_page_name: ''
 _core:
   default_config_hash: 26kJ-1Qzqw6SofJV2I5eTf3Qbuz7zU-jvD7Qk0vHkzc
 miniorange_saml_feedback: '1'
+miniorange_saml_default_role_index: '0'
+miniorange_saml_enable_rolemapping: true
