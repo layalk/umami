@@ -16,12 +16,14 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/azure_oauth_sso": "^1.0",
         "drupal/config_ignore": "^3.3",
         "drupal/config_override_warn": "^1.4",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/devel": "^5.3",
+        "drupal/s3fs": "^3.6",
         "drush/drush": "^13.0"
     },
     "conflict": {

@@ -2,6 +2,7 @@ _core:
   default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
 module:
   automated_cron: 0
+  azure_oauth_sso: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -39,6 +40,7 @@ module:
   path: 0
   path_alias: 0
   responsive_image: 0
+  s3fs: 0
   search: 0
   shortcut: 0
   system: 0
